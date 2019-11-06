@@ -1,0 +1,16 @@
+[package]
+name = "env_min"
+version = "0.0.1"
+authors = ["Giles Cope <gilescope@gmail.com>"]
+description = "Computes minimum env variables required to run command with same output"
+license = "Unlicense OR MIT"
+edition = "2018"
+repository = "https://github.com/gilescope/env_min"
+keywords = ['env', 'diff']
+
+[dependencies]
+clap="2.32"
+rand="0.6"
+colored = "1.6"
+terminal_size="0.1"
+indicatif = "0.10"
