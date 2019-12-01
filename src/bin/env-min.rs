@@ -7,7 +7,7 @@ fn main() {
     let mut command_line = Vec::<String>::new();
 
     if env::args().len() < 2 {
-        eprint!("Needs a command to run");
+        eprintln!("Needs a command to run");
         return;
     }
 
